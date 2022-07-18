@@ -1,59 +1,25 @@
-body {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+main {
     background-color: rgb(195, 206, 211);
 }
 
-a {
-    text-decoration: none;
+
+nav a {
     color: rgb(13, 13, 13);
     margin-right: 50px;
 }
 
-header {
-    display: flex;
-    height: 130px;
-    background-color: rgb(220, 229, 231);
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 25px;
-}
-
-
-.logo img {
-    width: 85%;
-}
-
-nav a {
-    font-weight: 600;
-    padding-right: 10px;
-}
-
 h2 {
-    margin-left: 10px;
-    
+    font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
-.page-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
-.product-container {
-    margin: 10px;
-    padding: 2px 16px;
-    background-color: white;
-}
-
-.product-container:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.product-container img {
-    width: 235px;
-
-}
 
 nav a:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -104,10 +70,5 @@ button {
 }
 
 article {
-    margin: 10px;
-}
-
-
-fieldset {
-    width: 37%;
+  font-family: 'Caveat', cursive;
 }

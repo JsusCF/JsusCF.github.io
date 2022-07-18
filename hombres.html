@@ -4,53 +4,261 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hombres</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: rgb(195, 206, 211);">
     <header>
-        <div class="logo"><img src="/img/logo.png" alt="logo de marca" class="/img/logo.png"></div>
-        <nav>
-            <a href="index.html" class="nav-link">Inicio</a>
-            <a href="hombres.html" class="nav-link">Hombre</a>
-            <a href="mujeres.html" class="nav-link">Mujer</a>
-            <a href="nosotros.html" class="nav-link">Nosotros</a>
-        </nav>
-    </header><br>
-    <h2>Zona Hombres</h2>
-    <div class="page-content">
-        <div class="product-container">
-            <img src="/img/producto7h.jpg" height="65%">
-            <h3>NIKE Venture Runner</h3>
+        <nav class="navbar navbar-expand-lg" style="background-color: rgb(220, 229, 231);">
+            <div class="container-fluid">
+              <span class="navbar-brand" href="#">
+                <img src="img/logo.png" width="85%">
+              </span>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav fw-bold">
+                  <a class="nav-link" href="index.html" style="margin-left: 250px;">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="hombres.html">Hombres</a>
+                  <a class="nav-link" href="mujeres.html">Mujeres</a>
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div id="carousel" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="img/banner1.jpeg" class="d-block w-100" height="340px">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/banner2.jpg" class="d-block w-100" height="340px">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/banner3.jpg" class="d-block w-100" height="340px">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/banner4.jpg" class="d-block w-100" height="340px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="product-container">
-            <img src="/img/producto8h.jpg" height="65%">
-            <h3>NIKE Air MAX Vg-r</h3>
+    <h2 class="m-3 fw-bold">Zona Hombres</h2>
+
+    <div class="row mx-3 g-2">
+        <div class="col-4">
+            <div class="card">
+                <img src="img/producto7h.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center">NIKE Venture Runner</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 124.00</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="product-container">
-            <img src="/img/producto9h.jpg" height="65%">
-            <h3>NIKE Revolution 6 Nn</h3>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/producto8h.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center">NIKE Air MAX Vg-r</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 163.00</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="product-container">
-            <img src="/img/producto2h.jpg" height="65%">
-            <h3>Nike Shorts Dri-Fit Essential</h3>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/producto9h.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center">NIKE Revolution 9</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 165.00</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="product-container">
-            <img src="/img/producto11h.jpg" height="65%">
-            <h3>Nike Air Versitile III</h3>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/producto2h.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center">Nike Shorts Dri-Fit Essential</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 143.00</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="product-container">
-            <img src="/img/producto10h.jpg" height="65%">
-            <h3>NIKE Revolution 5</h3>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/producto11h.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center">Nike Air Versitile III</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 112.00</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="product-container">
-            <img src="/img/producto1h.jpg" height="65%">
-            <h3>NIKE Revolution 6</h3>
-        </div> 
-        <div class="product-container">
-            <img src="/img/producto5h.jpg" height="65%">
-            <h3>Nike Shorts Dri-Fit Essential</h3>
-        </div> 
+        <div class="col-4">
+            <div class="card">
+                <img src="img/producto10h.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center">NIKE Revolution 5</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 154.00</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/producto1h.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center">NIKE Revolution 6</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 164.90</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/producto5h.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center">Nike Shorts Dri-Fit Essential</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 122.90</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/h17.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center"> Nike Air Max 200 SE</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 150.90</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/h18.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center"> Nike Air Max Dawn</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 150.90</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/h19.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center"> Nike Air Force Hombre</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 150.90</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/h20.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center"> Nike Dunk Low</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 150.90</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/h21.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center"> Nike Air Max 89</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 150.90</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/h22.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center"> Nike Reac Inifinity</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 150.90</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="img/h23.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title fs-4 text-center"> Nike Air Max 2022 SE</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="card-text">S/ 150.90</p>
+                        <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" title="Agregar al carrito">
+                        Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    </main><br>
+    <footer class="p-4 bg-black"></footer>
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
